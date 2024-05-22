@@ -6,3 +6,9 @@ function getComputerChoice(){
     
     return option[random]
 }
+
+function getHumanChoice(){
+    let choice = prompt("Rock, Paper, Scissors, SHOO!")
+
+    return choice
+}
